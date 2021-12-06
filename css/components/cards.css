@@ -1,0 +1,25 @@
+.cards {
+  display: flex;
+  height: 150px;
+  color: black;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0 0 5px rgba(151, 151, 151, 0.514);
+  height: 270px;
+  width: 244;
+  border-radius: 4px;
+  padding: 15px 15px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card p {
+  color: rgba(83, 83, 83, 0.425);
+}
